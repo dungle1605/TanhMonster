@@ -1,0 +1,75 @@
+body{
+    background-image: url('../Image/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+h2{
+    font-size: 50px;
+    color: aquamarine;
+    text-align: center;
+}
+
+#frame{
+    border: 20px solid black;
+    width: 605px;
+    height: 668px;
+    margin: auto;
+    z-index: 1;
+    overflow: hidden;
+}
+
+#image_box{
+    width: 605px;
+    height: 705px;
+    z-index: 2;
+    overflow: hidden;
+}
+
+.face {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    z-index: 0;
+}
+
+#head{
+    height: 238px;
+}
+
+#eyes{
+    height: 158px;
+}
+
+#nose{
+    height: 127px;
+}
+
+#mouth{
+    height: 161px;
+}
+
+#button-section{
+    display: block;
+    width: 200px;
+    height: 50px;
+    margin: 20px auto;
+}
+
+#random_images_btn{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#random_images_btn:hover{
+    cursor: pointer;
+}
